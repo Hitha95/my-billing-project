@@ -19,10 +19,3 @@ export const productsReducer = (state=productsInitialState, {type, payload}) =>{
     }
 }
 
-// export const allProductsReducer =(state=productsInitialState, {type, payload}) =>{
-//     switch(type){
-//         case GET_ALL_PRODUCTS: {
-//             return [...payload]
-//         }     
-//     }
-// }
